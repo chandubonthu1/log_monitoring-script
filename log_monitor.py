@@ -33,7 +33,7 @@ def monitor_log_file(log_file):
                 time.sleep(0.1)
 
 # Constants
-LOG_FILE = "log_monitor.py"
+LOG_FILE = "web_server.log"
 MAX_FAILED_LOGIN_ATTEMPTS = 3
 
 failed_login_count = {}
